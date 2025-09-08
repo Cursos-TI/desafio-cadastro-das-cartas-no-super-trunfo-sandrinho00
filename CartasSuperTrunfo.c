@@ -1,71 +1,22 @@
-// A função desse programa será executar um cadastro de 2 cartas de super trunfo. O cadastro deve ser inserido pelo usuario e depois mostrado na tela
-
 #include <stdio.h>
 
-    int main(){
-        //Declaração das variaveis da carta 01
-        char estado_01[20], codigo_01[10], nome_cidade_01[30];  //Declaração das variáveis do tipo char
-        int população_01, numero_pontos_01; //Declaração das variáveis do tipo int
-        float area_km_01, pib_01; // Declaração das variáveis do tipo float
+// Desafio Super Trunfo - Países
+// Tema 1 - Cadastro das Cartas
+// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
+// Siga os comentários para implementar cada parte do desafio.
+//Teste larissa
 
-        //Declaração das variaveis da carta 02
-        char estado_02[20], codigo_02[10], nome_cidade_02[30];  //Declaração das variáveis do tipo char
-        int população_02, numero_pontos_02; //Declaração das variáveis do tipo int
-        float area_km_02, pib_02; // Declaração das variáveis do tipo float
+int main() {
+    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
+    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+    
+    // Cadastro das Cartas:
+    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
+    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    
+    // Exibição dos Dados das Cartas:
+    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
+    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-
-        printf("Bem vido ao Super Trunfo Novato.\nQuando solicitado, digite os dados da carta 01.\n");  //
-        
-        printf("Digite e letra referente ao estado da carta 01:\n");
-        scanf("%s", &estado_01);
-        
-        printf("Digite o codigo da carta 01:\n");
-        scanf("%s", &codigo_01);
-
-        printf("Digite o nome da cidade referente a carta 01:\n");
-        scanf("%s", &nome_cidade_01);
-
-        printf("Digite a população da cidade da carta 01:\n");
-        scanf("%d", &população_01);
-
-        printf("Digite e area da carta 01\n");
-        scanf("%f", &area_km_01);
-
-        printf("Digite o PIB referente a cidade da carta 01\n");
-        scanf("%f", &pib_01);
-
-        printf("Digite o numero de pontos turisticos referentes a cidade da carta 01\n");
-        scanf("%d", &numero_pontos_01);
-
-        //Daqui em diante serão solicitadas as informações referentes à carta 02
-        printf("A partir de agora, quando solicitado, digite os dados da carta 02.\n"); 
-        
-        printf("Digite e letra referente ao estado da carta 02:\n");
-        scanf("%s", &estado_02);
-
-        printf("Digite o codigo da carta 02:\n");
-        scanf("%s", &codigo_02);
-
-        printf("Digite o nome da cidade referente a carta 02:\n");
-        scanf("%s", &nome_cidade_02);
-
-        printf("Digite a população da cidade da carta 02:\n");
-        scanf("%d", &população_02);
-
-        printf("Digite e area da carta 02\n");
-        scanf("%f", &area_km_02);
-
-        printf("Digite o PIB referente a cidade da carta 02\n");
-        scanf("%f", &pib_02);
-
-        printf("Digite o numero de pontos turisticos referentes a cidade da carta 02\n");
-        scanf("%d", &numero_pontos_02);
-
-        //Apos cadastradas as cartas, serão impressos os dados de cada uma delas:
-        printf("Carta 01\n");
-        printf(" Estado: %s\n Codigo da carta: %s\n Nome da Cidade: %s\n População: %d\n Area km: %f\n Pib: %f\n Numero de Pontos turisticos: %d\n", estado_01 ,codigo_01, nome_cidade_01, população_01, area_km_01, pib_01, numero_pontos_01);
-
-        printf("Carta 02\n");
-        printf(" Estado: %s\n Codigo da carta: %s\n Nome da Cidade: %s\n População: %d\n Area km: %f\n Pib: %f\n Numero de Pontos turisticos: %d\n", estado_02 ,codigo_02, nome_cidade_02, população_02, area_km_02, pib_02, numero_pontos_02);
-
-    }
+    return 0;
+}
